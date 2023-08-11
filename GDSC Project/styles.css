@@ -1,0 +1,272 @@
+body {
+  text-align: center;
+  background-color: #ffffff;
+  background-image: url(gdsc-social-share-removebg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 700px;
+  overflow: hidden;
+}
+
+nav {
+  background-color: #222;
+  color: #fff;
+  position: relative;
+  top: -270px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu li:first-child {
+  margin-left: 0;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu li a:hover {
+  background-color: #444;
+}
+
+.s {
+  background-image: url(gdsc/9780141394459.jpg);
+  background-size: 125px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  left: -49px;
+  top: 400px;
+  opacity: 90%;
+
+
+}
+
+.a {
+  background-image: url(gdsc/Ankur\ Boss.jpg);
+  background-size: 125px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  left: 626px;
+  top: 70px;
+  opacity: 90%;
+}
+
+.k {
+  background-image: url(gdsc/kritansh\ boss.jpg);
+  background-size: 125px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  left: -92px;
+  top: 400px;
+  opacity: 90%;
+}
+
+.l {
+  background-image: url(gdsc/lakshita\ boss.jpg);
+  background-size: 125px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  left: 520px;
+  top: 400px;
+  opacity: 90%;
+}
+
+.y {
+  background-image: url(gdsc/yogit\ boss.jpg);
+  background-size: 125px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  left: 100px;
+  top: 400px;
+  opacity: 90%;
+}
+
+.v {
+  background-image: url(gdsc/vanshaj\ boss.jpg);
+  background-size: 125px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  left: -650px;
+  top: 70px;
+  opacity: 90%;
+}
+
+.p {
+  background-image: url(gdsc/1684043711905.jpg);
+  background-size: 125px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  left: -460px;
+  top: 400px;
+  opacity: 90%;
+
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+
+.intro span {
+  height: 40px;
+  width: 19%;
+}
+
+.satvik {
+  display: inline-block;
+  background-color: red;
+  position: relative;
+  top: 170px;
+  left: 0px;
+  display: none;
+  margin: 0px 4px;
+  border-radius: 10px;
+}
+
+.kritansh {
+  display: inline-block;
+  background-color: #00A1F1;
+  position: relative;
+  top: 170px;
+  left: 0px;
+  display: none;
+  margin: 0px 4px;
+  border-radius: 10px;
+
+}
+
+.purva {
+  display: inline-block;
+  background-color: #FFBB00;
+  position: relative;
+  top: 170px;
+  left: 0px;
+  display: none;
+  margin: 0px 4px;
+  border-radius: 10px;
+}
+
+.yogit {
+  display: inline-block;
+  background-color: #7CBB00;
+  position: relative;
+  top: 170px;
+  left: 0px;
+  display: none;
+  margin: 0px 4px;
+  border-radius: 10px;
+
+
+}
+
+.lakshita {
+  display: inline-block;
+  background-color: #F65314;
+  position: relative;
+  top: 170px;
+  left: 0px;
+  display: none;
+  margin: 0px 4px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 5px solid #191b1a;
+  font-size: 1rem;
+  line-height: 17;
+  border-radius: 15px;
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.lead {
+  display: inline;
+  position: relative;
+  top: -0px;
+  left: -280px;
+}
+
+.lead2 {
+  display: inline;
+  position: relative;
+  top: -0px;
+  left: 244px;
+}
+
+h1 {
+  display: inline;
+
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.ip {
+  border: 3px solid gray;
+  background-color: #444;
+  color: white;
+
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
